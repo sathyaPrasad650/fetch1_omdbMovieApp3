@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+h1 {
+  margin-top: 30px;
+
+  text-align: center;
+}
+#searchBar {
+  margin-top: 30px;
+  text-align: center;
+}
+input {
+  border: none;
+  border: 1px solid white;
+}
+button {
+  width: 50px;
+  height: 20px;
+  background-color: white;
+  border-radius: 2px;
+  color: black;
+  font-weight: 600;
+}
+#movieData {
+  width: 60%;
+  padding-left: 50px;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 45px;
+}
+#searchedMovie {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+}
+#displayDiv {
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
