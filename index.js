@@ -67,7 +67,7 @@ function displayMovie(obj) {
     let rating
     // console.log(obj.imdbRating)
     if (obj.imdbRating > 8.5) {
-        console.log('YESSSS')
+        // console.log('YESSSS')
         rating = document.createElement('p')
         rating.innerText = `(RECOMMENDED) Imdb Rating: ${obj.imdbRating}`
     }
